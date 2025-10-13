@@ -7,15 +7,15 @@
 </head>
 
 <body>
-	<form>
-		<label for="username">Name:</label>
-		<input type="text" minlength="3" maxlength="50" id="username" name="username">
+	<form method="get" action="URL">
+		<label for="Name">Name:</label>
+		<input type="text" minlength="3" maxlength="50" id="Name" name="Name"><br><br>
 		<label for="URL">Portfolio:</label>
-		<input type="url">
-		<label for="COlor">FavColor:</label>
-		<input type="color">
+		<input type="url" id="URL" name="URL"><br><br>
+		<label for="Color">FavColor:</label>
+		<input type="color" id="Color" name="FavColor"><br><br>
 		<label for="Range">Likeness:</label>
-		<input type="range" min="1" max="100">
+		<input type="range" min="1" max="100" id="Range" name="Likeness"><br><br>
 		<input type="submit" value="POST">
 	</form>
 	<!-- the entire body must be written by student -->
